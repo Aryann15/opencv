@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('Photos/cat1.jpeg')
+img = cv.imread('../Photos/cat1.jpeg')
 cv.imshow('Cat',img)
 
 #converting to grayscale

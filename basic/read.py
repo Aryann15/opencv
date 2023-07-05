@@ -22,7 +22,7 @@ import cv2 as cv
 
 import cv2 as cv
 
-img = cv.imread('Photos/cat1.jpeg')
+img = cv.imread('../Photos/cat1.jpeg')
 cv.imshow('1st Cat', img)
 
 def rescaleFrame (frame, scale=0.75):

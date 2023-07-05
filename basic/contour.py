@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img= cv.imread('Photos/cat1.jpeg')
+img= cv.imread('../Photos/cat1.jpeg')
 
 cv.imshow('cat',img)
 gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
